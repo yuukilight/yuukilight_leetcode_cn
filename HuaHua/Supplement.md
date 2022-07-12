@@ -15,4 +15,9 @@ indices.clear();
 
 erase;
 emplace;
+
+// map 创建与赋值
+// 如果访问元素不存在会返回 0
+map<char, int> dx{{'L',-1},{'R',1}},dy{{'U',1},{'D',-1}};
 ```
+
